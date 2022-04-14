@@ -1,13 +1,4 @@
-/**
-* Template Name: Selecao - v4.6.0
-* Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -325,27 +316,36 @@ h6 {
   /* background-position-x: 100%; */
 }
 .a {
-  background: url(../img/1.jpg);
-  background-size: cover;
-  position: relative;
+  /* background: url(../img/1.jpg);
+  background-size: cover; */
+
+
   margin-top: 5%;
 }
+
+.carousel-container img{
+  object-fit: cover;
+  width:100%; 
+}
 .b {
-  background: url(../img/2.jpg);
-  background-size: cover;
-  position: relative;
+  /* background: url(../img/2.jpg);
+  background-size: cover; */
+ 
+
   margin-top: 5%;
 }
 .c {
-  background: url(../img/3.jpg);
-  background-size: cover;
-  position: relative;
+  /* background: url(../img/3.jpg); */
+  /* background-size: cover; */
+
+
   margin-top: 5%;
 }
 .cadet{
   background: url(../img/3.jpg);
   background-size: cover;
   position: relative;
+  object-fit: contain;
   margin-top: 5%;
 }
 #hero h2 {
@@ -405,7 +405,8 @@ h6 {
 }
 @media (max-width: 768px) {
   #hero .carousel-container {
-    height: 90vh;
+    height: 40vh;
+    
   }
   #hero h2 {
     font-size: 28px;
@@ -1370,3 +1371,5 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+
